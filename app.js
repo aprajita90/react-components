@@ -74,7 +74,7 @@
 //   render() {
 
 //     return (
-//       <li>{this.props.groceryItems}</li>
+//       <li>{this.props.item}</li>
 //     );
 
 //   }
@@ -82,7 +82,7 @@
 // }
 
 // var GroceryList = (props) => {
-//   console.log(props, 'props')
+  
 //   return (
 //     <ul>
 //       {props.groceryItems.map(item =>
@@ -109,9 +109,6 @@
 //   }
 
 // }
-
-
-
 
  class GroceryListItem extends React.Component {
   constructor(props) {
